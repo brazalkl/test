@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@import "@fontsource-variable/geist";
+
+:root {
+  font-family: "Geist Variable", sans-serif;
+  color: #111827;
+  background: #f8fafc;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
